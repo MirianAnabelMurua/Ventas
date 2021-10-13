@@ -11,7 +11,7 @@ namespace Ventas
         // Métodos para registrar listeners de cambio de estado para
         // el modelo del Ventas
         /* -------------------------------------------------------------
-         * Agregar un observador a la lista de objetos que serán notificados 
+         * Agrega un observador a la lista de objetos que serán notificados 
          * cuando un objeto(Cliente, Cartera o Stock) del modelo de Ventas 
          * altera su estado
          */
@@ -20,17 +20,17 @@ namespace Ventas
         // iteración 1 Métodos del segmento Cliente para el modelo de Ventas
         // Métodos del segmento Cliente de cambio de estado
         /**-------------------------------------------------------------
-         * Agregar el Cliente al modelo Ventas 
+         * Agrega el Cliente al modelo Ventas 
          */
         void AgregarCliente(Cliente cliente);
 
         /**-------------------------------------------------------------
-         * Borrar el cliente del modelo Ventas 
+         * Borra el cliente del modelo Ventas 
          */
         void BorrarCliente(Cliente cliente);
 
         /**-------------------------------------------------------------
-         * Actualizar el cliente en el modelo Ventas
+         * Actualiza el cliente en el modelo Ventas
          */
         void ActualizarCliente(Cliente cliente);
 
